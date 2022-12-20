@@ -1,0 +1,35 @@
+/* .deep-new-full-width{
+    background-color: yellow !important;
+    min-width: 1250px !important;
+}
+.deep-new-half-width{
+    background-color: rgb(25, 214, 0) !important;
+    min-width: 625px !important;
+}
+.education_full_width{
+    background-color: yellow !important;
+}
+.deepak-full-width{
+    background-color: bisque!important;
+} 
+*/
+.navigation .level0 .submenu li {
+    width: 250px;
+}
+
+#ui-id-1 > li.level0.nav-1.level-top.parent.ui-menu-item > ul :hover{
+    left: auto;
+} 
+
+.navigation .parent div{
+ display: flex;
+    min-width: 100%;
+} 
+/* .navigation ul li:hover{
+
+} */
+.navigation .parent:hover div .level0.submenu{
+display: block !important;
+position: relative!important;
+margin-top: 50px;
+}

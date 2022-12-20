@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Theme\Block\Html\Topmenu">
+		<plugin name="catalogTopmenu" disabled="true"/>
+		<plugin name="catalogTopmenuRewrite" type="Mageget\CategoryAttribute\Plugin\Block\Topmenu"/>
+           <!-- <plugin name="add_registry_inmenu" type="Mageget\CategoryAttribute\Plugin\Custommenu" sortOrder="10" disabled="false"/> -->
+	</type>
+	<preference for="Magento\Theme\Block\Html\Topmenu" type="Mageget\CategoryAttribute\Block\Html\Topmenu" />
+</config>

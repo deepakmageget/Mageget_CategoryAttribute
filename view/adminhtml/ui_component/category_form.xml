@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="general">
+        <field name="custom_select_options">
+            <argument name="data" xsi:type="array">
+                <item name="options" xsi:type="object">Mageget\CategoryAttribute\Model\Config\Source\CustomOptionList</item>
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Select Menu Width</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="formElement" xsi:type="string">select</item>
+                    <item name="source" xsi:type="string">custom_select_options</item>
+                    <item name="dataScope" xsi:type="string">custom_select_options</item>
+                    <item name="sortOrder" xsi:type="number">50</item>
+                </item>
+            </argument>
+        </field>
+    </fieldset>
+</form>
